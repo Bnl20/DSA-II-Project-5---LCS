@@ -106,3 +106,6 @@ void CommonSub::PrintLCS(string firstString, string secondString){
     cout << "String 2: " << secondString << endl;
     cout << "LCS of both strings: " << FindLCS(firstString, secondString) << endl;
 }
+git remote set-url origin git@github.com:bnl20/REPOSITORY.git
+
+git remote set-url origin  git@github.com:Bnl20/DSA-II-Project-5---LCS.git
