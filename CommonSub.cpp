@@ -10,8 +10,6 @@
 #include "CommonSub.hpp"
 using namespace std;
 
-
-
 /*
 *reads input file
 */
@@ -92,6 +90,10 @@ string CommonSub::FindLCS(string &firstString, string &secondString){
     return commSubsequence;
 }
 
+
+/*
+*printa the lcs
+*/
 void CommonSub::PrintLCS(string firstString, string secondString){
 
     cout << "String 1: " << firstString << endl;

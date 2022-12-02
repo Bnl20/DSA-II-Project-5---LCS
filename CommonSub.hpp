@@ -32,7 +32,7 @@ class CommonSub{
         string FindLCS(string &firstString, string &secondString);
 
         /*
-        *print the lcs
+        *printa the lcs
         */
         void PrintLCS(string firstString, string secondString);
 };

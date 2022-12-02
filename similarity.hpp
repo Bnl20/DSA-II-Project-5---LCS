@@ -10,10 +10,9 @@
 using namespace std;
 
 class Similarity {
-    private:
-       
-
+    
     public:
+       
        /*
        * Calculates the length of the LCS
        */
