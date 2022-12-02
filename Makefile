@@ -9,7 +9,7 @@ CommonSub.o: CommonSub.cpp CommonSub.hpp
 main.o: main.cpp CommonSub.hpp
 	$(CXX) $(CXXFLAGS) -c main.cpp
 
-Similarity.o: Similarity.cpp 
+Similarity.o: similarity.cpp similarity.hpp 
 	$(CXX) $(CXXFLAGS) -c Similarity.cpp
 
 main: ${OBJS}

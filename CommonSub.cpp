@@ -1,24 +1,16 @@
+/*********************************************************************************
+  Student Name: Bradley Love
+  File Name: CommonSub.hpp
+  Assignment number 5
+  Desc: Responsible for defining methods used to generate the LCS of two strings
+**********************************************************************************/
 #include<iostream>
 #include<fstream>
 #include<cstring>
 #include "CommonSub.hpp"
 using namespace std;
 
-//TODO: code the default constructer
-/*
-*default constructor
-*/
-CommonSub::CommonSub(){
-    //TODO: code this when i get the class more figured out
-    stringToCheck = "N/a";
-}
 
-/*
-*overloaded constructor
-*/
-CommonSub::CommonSub(string stringToCheck){
-    this->stringToCheck = stringToCheck;
-}
 
 /*
 *reads input file
@@ -84,7 +76,7 @@ string CommonSub::FindLCS(string &firstString, string &secondString){
     while((i > 0) && (j > 0)){
         if(firstString[i - 1] == secondString[j - 1]){
             commSubsequence[lcsIndex - 1] = firstString[i - 1];
-            i-= 1;
+            i -= 1;
             j -= 1;
             lcsIndex -= 1;
 

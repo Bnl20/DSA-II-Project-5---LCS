@@ -1,3 +1,9 @@
+/*********************************************************************************
+  Student Name: Bradley Love
+  File Name: CommonSub.hpp
+  Assignment number 5
+  Desc: Responsible for declaring methods used to generate the LCS of two strings
+**********************************************************************************/
 #ifndef COMMONSUB_H
 #define COMMONSUB_H
 #include<string>
@@ -5,11 +11,7 @@ using namespace std;
 
 class CommonSub{
     private:
-        string stringToCheck;
-
-        int row;
-
-        int col;
+     
 
         /*
         * "c" 2d array to store the length of the LCS
@@ -17,15 +19,7 @@ class CommonSub{
        int cArray[1000][1000];
 
     public:
-        /*
-        *default constructor
-        */
-        CommonSub();
-
-       /*
-       *overloaded constructor
-       */
-        CommonSub(string stringToCheck);
+    
 
        /*
        *reads input file
